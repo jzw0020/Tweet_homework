@@ -1,2 +1,2 @@
- python words_tweeted.py
- python median_unique.py
+#!/bin/bash
+find . -name *.py -exec python {} \;
