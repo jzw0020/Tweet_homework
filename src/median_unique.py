@@ -6,7 +6,7 @@ num_words=0
 num_chars=0
 array = []
 ft2=open('ft2.txt','w')
-with open(r'c:\users\jing\onedrive\cpython-ms\tweet\tweets.txt', 'r') as f:
+with open('tweets.txt', 'r') as f:
     for line in f:
         words = set(line.split())
         num_lines += 1
